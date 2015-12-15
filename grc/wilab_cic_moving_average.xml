@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<block>
+  <name>cic_moving_average</name>
+  <key>wilab_cic_moving_average</key>
+  <category>wilab</category>
+  <import>import wilab</import>
+  <make>wilab.cic_moving_average($length)</make>
+ 
+ <param>
+    <name>Average Length</name>
+    <key>length</key>
+    <type>int</type>
+  </param>
+
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>
